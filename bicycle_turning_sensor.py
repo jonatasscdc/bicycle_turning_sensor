@@ -6,9 +6,6 @@ from microbit import *
 gesture = accelerometer.current_gesture()
 
 #Executing the instructions while moving
-
-
-
 while True:
 
     gesture = accelerometer.current_gesture()
