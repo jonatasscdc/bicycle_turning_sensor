@@ -1,11 +1,11 @@
-# Add your Python code here. E.g.
+#Importing microbit's main libraries:
 from microbit import * 
 
 
-##Getting current position from de built-in accelerometer
+##Getting current position from de built-in accelerometer:
 gesture = accelerometer.current_gesture()
 
-#Executing the instructions while moving
+#Executing the instructions while moving:
 while True:
 
     gesture = accelerometer.current_gesture()
@@ -19,7 +19,7 @@ while True:
     
 
 ### Known basic problems:
-    ##1: The device does not show anything while staying still. (solved)
+    ##1: The device does not show anything while staying still. (partially solved)
     ##2:            does not show a cross                     . You have to configure the condition for 
     ### accelerometer to be with no moving. (issue)
 
