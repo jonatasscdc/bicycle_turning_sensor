@@ -5,7 +5,7 @@ from microbit import *
 #Executing the instructions while moving:
 while True:
     
-    ##Getting current position from de built-in accelerometer:
+    ##Getting current position from the built-in accelerometer:
     gesture = accelerometer.current_gesture()
 
 
